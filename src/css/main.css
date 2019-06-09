@@ -1,0 +1,90 @@
+.sqlv-sqlviewer {
+}
+
+.sql-input {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+.sqlv-view {
+  display: none;
+}
+
+.formatter-view {
+  display: none;
+}
+
+.give-me-some-sugar {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  background: white;
+  border: 1px solid;
+  padding: 10px;
+  top: 30px;
+  left: 50px;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.formatter-sugar {
+  display: block;
+  position: absolute;
+  z-index: 4;
+  background: #fafbfc;
+  border: 1px solid;
+  padding: 10px;
+  top: 30px;
+  left: 50px;
+  width: 500px;
+  height: 1024px;
+  overflow: scroll;
+  font-size: 12px;
+}
+
+/*.innerCode{
+  overflow: scroll;
+  font-size: 10px;
+}*/
+
+.formatter-style {
+  width:100%;
+  height:100%;
+  padding-left:50px;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.text-red {
+  color: red;
+}
+
+.number {
+  color: red;
+}
+
+.key {
+  color: blue;
+}
+
+.string {
+  color: green;
+}
+
+.boolean {
+  color: orange;
+}
+
+.null {
+  color: dimgrey;
+}
